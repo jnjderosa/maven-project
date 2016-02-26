@@ -47,7 +47,18 @@
             <enabled>true</enabled>
           </snapshots>
         </repository>
-      </repositories>
+   <repository>
+        <id>mulesoft-releases</id>
+        <name>MuleSoft Repository</name>
+        <url>http://repository.mulesoft.org/releases/</url>
+        <layout>default</layout>
+    </repository>
+    <repository>
+        <id>mulesoft-snapshots</id>
+        <name>MuleSoft Snapshot Repository</name>
+        <url>http://repository.mulesoft.org/snapshots/</url>
+        <layout>default</layout>
+    </repository>    </repositories>
     </profile>
   </profiles>
 </settings>
